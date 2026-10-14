@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of Meet Goswami, a developer who builds thoughtful, accessible digital experiences.">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>Meet Goswami — Developer &amp; Designer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Meet Goswami, home">MG<span>.</span></a>
+    <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation menu">
+    <label class="menu-button" for="menu-toggle"><span></span><span></span><span></span><b class="sr-only">Menu</b></label>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AVAILABLE FOR SELECT PROJECTS</p>
+        <h1 id="hero-title">Building the<br>web, <em>with care.</em></h1>
+        <p class="hero-intro">Hi, I’m <strong>Meet Goswami</strong> — a developer and designer making useful, human-friendly things for the internet.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Abstract illustration of a warm sun rising over layered hills">
+        <div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div><span class="art-caption">CURIOUS BY NATURE<br>PRECISE BY DESIGN</span>
+      </div>
+      <div class="hero-bottom"><span>INDEPENDENT DEVELOPER</span><span>BASED IN MANDVI, KUTCH</span><a href="#projects">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+
+    <section class="section wrap about" id="about" aria-labelledby="about-title">
+      <div class="section-label"><span>01 / ABOUT</span><span>THE PERSON BEHIND THE PIXELS</span></div>
+      <div class="about-grid"><h2 id="about-title">Good work starts<br>with <em>good questions.</em></h2><div class="about-copy"><p>I’m a developer who enjoys turning complex ideas into clear, welcoming experiences. I care about the details — from the first sketch to the last line of code — and about making the web work for everyone.</p><p>Outside of work, you’ll find me <span class="placeholder">playing games and exploring</span>. I’m always up for learning something new and collaborating with kind, curious people.</p><a class="text-link" href="#contact">A bit more about me <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap"><div class="section-label"><span>02 / SELECTED WORK</span><span>A FEW THINGS I’VE MADE</span></div>
+        <div class="projects-heading"><h2 id="projects-title">Made with <em>intention.</em></h2><p>A few projects, real or imagined, that show how I think and build.</p></div>
+        <div class="project-filters" role="group" aria-label="Filter projects">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work</button>
+          <button class="filter-button" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+          <button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button>
+        </div>
+        <p class="sr-only" id="filter-status" aria-live="polite"></p>
+        <div class="project-grid">
+          <article class="project-card" data-categories="frontend design"><button class="project-visual visual-one lightbox-trigger" type="button" aria-label="View Fieldnotes project preview"><span class="mock-window" aria-hidden="true"><span class="mock-top"><i></i><i></i><i></i><span>fieldnotes.app</span></span><span class="mock-content"><span class="mock-kicker">A LITTLE MORE OUTSIDE</span><b>Find your<br>next trail.</b><span class="mock-cta">Explore nearby&nbsp; ↗</span><span class="mock-sun"></span></span></span></button><div class="project-meta"><div><h3>Fieldnotes</h3><p>A friendly trail-finding experience for the weekend wanderer.</p></div><span class="project-number">01</span></div><ul class="tags" aria-label="Technologies used"><li>Product design</li><li>Frontend</li></ul></article>
+          <article class="project-card" data-categories="frontend"><button class="project-visual visual-two lightbox-trigger" type="button" aria-label="View Daymark project preview"><span class="dashboard" aria-hidden="true"><span class="dash-side">M<span>MENU<br><br>OVERVIEW<br>INSIGHTS</span></span><span class="dash-main"><span class="dash-kicker">MONDAY, 09:41 AM</span><b>A calmer way<br>to plan your week.</b><span class="dash-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><small>YOUR FOCUS, AT A GLANCE</small></span></span></button><div class="project-meta"><div><h3>Daymark</h3><p>A thoughtful planning tool that makes room for focus.</p></div><span class="project-number">02</span></div><ul class="tags" aria-label="Technologies used"><li>Web app</li><li>Accessibility</li></ul></article>
+          <article class="project-card" data-categories="design"><button class="project-visual visual-three lightbox-trigger" type="button" aria-label="View Studio Common project preview"><span class="type-poster" aria-hidden="true"><span>GOOD THINGS<br>GROW SLOWLY</span><b>STUDIO<br>COMMON</b><i>Independent makers. Shared ideas.</i></span></button><div class="project-meta"><div><h3>Studio Common</h3><p>A warm, editorial home for an independent creative studio.</p></div><span class="project-number">03</span></div><ul class="tags" aria-label="Technologies used"><li>Brand &amp; web</li><li>Responsive</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap skills" id="skills" aria-labelledby="skills-title"><div class="section-label"><span>03 / TOOLKIT</span><span>WHAT I BRING TO THE TABLE</span></div><div class="skills-grid"><h2 id="skills-title">A mix of craft<br>&amp; <em>curiosity.</em></h2><div><p class="skills-intro">The tools change. The goal stays the same: make something clear, useful, and a joy to use.</p><ul class="skill-list"><li>HTML &amp; accessible markup</li><li>CSS &amp; responsive design</li><li>JavaScript &amp; TypeScript</li><li>React &amp; component systems</li><li>Prototyping &amp; interaction design</li><li>Git, testing &amp; collaboration</li></ul></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><div class="section-label"><span>04 / SAY HELLO</span><span>GOOD THINGS START HERE</span></div><h2 id="contact-title">Have a good<br>one in <em>mind?</em></h2><p class="contact-intro">Tell me what you’re dreaming up. I’d love to hear about it.</p><a class="email-link" href="mailto:meetpgoswami0810@gmail.com">meetpgoswami0810@gmail.com <span aria-hidden="true">↗</span></a></div><form class="contact-form" action="mailto:meetpgoswami0810@gmail.com" method="post" enctype="text/plain" novalidate><div class="form-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Smith" required aria-describedby="name-error"><span class="field-error" id="name-error"></span></div><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required aria-describedby="email-error"><span class="field-error" id="email-error"></span></div></div><div class="field"><label for="message">A little about your project</label><textarea id="message" name="message" rows="4" placeholder="What would you like to make?" required aria-describedby="message-error"></textarea><span class="field-error" id="message-error"></span></div><button class="button button-light" type="submit">Send a message <span aria-hidden="true">↗</span></button><p class="form-note">This demo form opens your email app. Replace the address with yours.</p><p class="form-status" aria-live="polite" role="status"></p></form></div></section>
+  </main>
+
+  <dialog class="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-header"><h2 id="lightbox-title">Project preview</h2><button class="lightbox-close" type="button" aria-label="Close project preview">Close <span aria-hidden="true">×</span></button></div><div class="lightbox-content"></div></dialog>
+  <footer class="site-footer wrap"><a class="wordmark" href="#home" aria-label="Meet Goswami, back to top">MG<span>.</span></a><p>Thoughtfully made, one detail at a time.</p><a href="#home">BACK TO TOP ↑</a><small>© <span id="year">2026</span> MEET GOSWAMI</small></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
